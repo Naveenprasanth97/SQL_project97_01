@@ -1,7 +1,7 @@
 ﻿1. Find Duplicate RecordsinaTable(Amazon)
 
 SELECT column1, column2, COUNT(*)
-FROM your_table
+FROM amazon
 GROUP BY column1, column2
 HAVING COUNT(*) > 1; 
 
